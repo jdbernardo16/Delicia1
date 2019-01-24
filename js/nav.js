@@ -16,7 +16,8 @@ $(document).ready(function() {
                 $(".logo-img").toggleClass("logo-img-shrink", $(this).scrollTop() > 50);
               
                 var currentScrollPos = $(document).scrollTop();
-            }
+
+              }
   
   
 });
