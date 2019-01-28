@@ -1537,14 +1537,14 @@ a {
 }
 
 .treats4__img {
-	width: 65%;
+	width: 60%;
 	display: inline-block;
 }
 
 .treat4__img-l {
 	display: inline-block;
-    width: 350px;
-	height: 550px;
+  width: 290px;
+	height: 470px;
 	margin-left: 30px;
 	margin-top: 20px;
 	margin-right: 10px;
@@ -1558,8 +1558,8 @@ a {
 
 .treat4__img-r-t {
 	display: block;
-    width: 400px;
-	height: 270px;
+  width: 350px;
+	height: 230px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 
@@ -1567,18 +1567,16 @@ a {
 
 .treat4__img-r-b {
 	display: block;
-    width: 400px;
-	height: 270px;
+    width: 350px;
+	height: 230px;
 	margin-bottom: 20px;
 
 }
 
 .treats4__cont {
-	width: 35%;
+	width: 40%;
 	text-align: center;
 	display: inline-block;
-	vertical-align: top;
-	margin-top: 100px;
 
 }
 
