@@ -10,10 +10,10 @@ $(document).ready(function() {
     
                 var scrollt = $(document).scrollTop();
                 if (scrollt > 50) {
-                	 $("input").css("padding", "10px 0px 10px 10px");
+                	 $(".input").css("padding", "10px 0px 10px 10px");
                 }
                 else {
-                	$("input").css("padding", "20px 0px 20px 20px");
+                	$(".input").css("padding", "20px 0px 20px 20px");
                 }
 
                 var scrollt = $(document).scrollTop();

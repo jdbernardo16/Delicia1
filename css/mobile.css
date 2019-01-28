@@ -1,0 +1,471 @@
+
+
+@media screen and (max-width: 1100px) {
+	.logo-img {
+  	max-width: 185px;
+ 	transition: .3s;
+}
+
+/*exp*/
+
+.treats2 {
+	
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+   
+    .mobile-nav {
+        display: block;
+    }
+    .desktop-nav {
+        display: none;
+    }
+
+    .input {
+	display: none;
+	}
+
+	/*exp*/
+	.treats__cont {
+		width: 40%;
+	}
+	.treats1__img {
+		width: 60%;
+	}
+
+
+
+	/*frame2*/
+
+
+.home-frame2-__img-left1 {
+	max-width: 150px;
+	z-index: -1;
+	
+}
+
+.home-frame2-__img-left2 {
+	max-width: 150px;
+	z-index: -1;	
+}
+
+.home-frame2__slider-img-head {
+	text-align: center;
+	font-size: 22px;
+	padding-left: 0px;
+}
+
+.home-frame2__slider-img-description {
+	font-size: 14px;
+	text-align: center;
+	padding-left: 0px;
+}
+
+
+}
+
+
+@media screen and (max-width: 950px) {
+
+
+	.home-frame4__left {
+		display: block;
+		width: 100%;
+	}
+
+	.home-frame4__right {
+		display: block;
+		width: 100%;
+	}
+
+
+	.home-frame2__slider-img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.home-frame2__slider-img2 {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+
+	.home-frame4__right-feed {
+		position: absolute;
+	}
+
+	.home-frame4__right-feed-text-style {
+		width: 100%;
+	}
+
+	.home-frame4__right-feed-social {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 20px;
+	}
+
+
+	.home-frame4__right-feed-head {
+		margin-left: 20px;
+	}
+
+	.home-frame4__right-feed-social-fb {
+		display: block;
+		width: 100%;
+	}
+
+	.home-frame4__right-feed-head-style {
+		padding:5px 0px;
+	}
+
+	.home-frame4__right-feed-social-ig {
+		display: block;
+		width: 100%;
+		padding: auto;
+	}
+
+
+	.home-frame3__bottom-left {
+		display: none;
+	}
+
+	.home-frame3__bottom-left {
+		display: none;
+	}
+
+	.home-frame3__right {
+		display: none;
+	}
+
+	.home-frame3__left {
+		width: 100%;
+	}
+}
+* { margin: 0; padding: 0; }
+
+
+@media screen and (max-width: 768px) {
+	.home-frame1 {
+    height:40vh;
+
+}
+		/*frame2*/
+
+.home-frame2__slider-img-description-container {
+	width: 60%;
+
+}
+
+/*feedback*/
+
+	.home-frame4__right-feed-text {
+		
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	
+	.mobile-navigation__logo {
+  	max-width: 120px;
+ 	transition: .3s;
+	}
+
+
+
+	.footer__content-logo {
+		display: block;
+		width: 50%;
+		margin: auto;
+	}
+
+	.footer__content-link {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer__content-contact {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer__content-address {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.home-frame2__slider-img {
+		width: 240px;
+		height: 240px;
+	}
+
+	.home-frame2__slider-img2 {
+		width: 280px;
+		height: 240px;
+	}
+
+
+
+	/*experience*/
+
+	.exp__des-cont-button-style {
+		font-size: 10px;
+	}
+
+
+	.exp__des {
+		transform: translateY(0px);
+		text-align: center;
+	}
+
+
+	.exp__frame2-cont-head {
+		font-size: 30px;
+	}
+
+	.exp__frame2-cont-des {
+		font-size: 1em;
+	}
+
+
+/*goodness*/
+
+	.goodness {
+		height: 50vh;
+		background-position: bottom;
+		background-size: cover;
+	}
+
+	.goodness-content__description {
+		margin: 40px;
+	}
+
+	.goodness-content__hazel-cont-head {
+		margin-top: 20px;
+	}
+
+	.goodness-content__imgs2 {
+		width: 320px;
+		height: 270px;
+		margin-left: 0px;
+	}
+
+	.goodness-content__imgs {
+		height: 270px;
+		width: 270px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.home-frame2__header	{
+		margin: 20px auto;
+	}
+
+	.home-frame2__sub-header {
+		font-size: 20px;
+	}
+
+	.home-frame2__description {
+		font-size: 14px;
+		margin: auto 20px;
+	}
+
+	/*goodness*/
+
+	.goodness-content__hazel-cont {
+		margin-left: 0px;
+	}
+	
+
+	.goodness {
+		height: 20vh;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.goodness-content-text {
+		font-size: 15px;
+	}
+
+	.goodness-content__milk-cont-des {
+		text-align: left;
+	}
+
+	.goodness-content__hazel-cont-line {
+		margin-left: 130px;
+	}
+
+
+	.goodness-content__hazel-cont-head {
+		text-align: center;
+	}
+
+	.goodness-content__milk-cont-head {
+		text-align: center;
+	}
+
+
+	.goodness-content__milk-cont-line {
+		margin-left: 130px;
+	}
+
+	.goodness-content__imgs2 {
+		height: 250px;
+		width: 290px;
+		margin-left: 0px;
+	}
+
+	.goodness-content__imgs {
+		height: 250px;
+		width: 250px;
+		margin-left: 0px: 
+	}
+
+
+/*exp*/
+	.exp__des-img {
+		display: none;
+	}
+
+	.exp__des-col2 {
+		width: 90%;
+	}
+
+	.exp__des-cont-head {
+		font-size: 1.2em;
+	}
+
+	.exp__des-cont-text {
+		font-size: 1em;
+		margin-bottom: 50px;
+	}
+
+	.exp__frame2-img {
+		max-width: 150px;
+		transform: translateY(-70px);
+	}
+
+	.exp__frame2-logo {
+		height: 14vh;
+	}
+
+	.exp__frame2-cont-head {
+		font-size: 1.5em;
+	}
+
+
+	.exp__frame3-content {
+		margin: 20px auto;
+	}
+
+	.exp__frame3-card {
+		margin: 20px auto;
+		width: 95%;
+	}
+
+	.exp__frame4-cont-ig-link {
+		margin: 10px auto;
+	}
+
+
+	.exp__frame4-cont-ig-head {
+		font-size: 18px;
+	}
+	.exp__frame4-cont-ig-cont {
+		font-size: 20px;
+	}
+
+	.exp__frame4-cont-fb-head {
+		font-size: 18px;
+	}
+	.exp__frame4-cont-fb-cont {
+		font-size: 20px;
+	}
+/*index*/
+
+
+	.home-frame2__slider-img-description-container {
+		width: 90%;
+		z-index: 999;
+	}
+
+	.home-frame2__slider-img-head {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.home-frame2__slider-img-description {
+		font-size: 11px;
+		line-height: 20px;
+		margin: 20px 50px;
+	}
+
+	.home-frame2-__img-left-container {
+		display: none;
+	}
+
+	.home-frame2-__img-right-container {
+		display: none;
+		
+
+		
+	}
+
+	.home-frame2-container {
+		width: 95%;
+
+	}
+
+
+@media screen and (max-width: 320px) {
+
+		.home-frame1 {
+			height:20vh;
+		  
+		}
+
+		.goodness-content__hazel-cont-des {
+			font-size: 0.8em;
+		}
+
+		.goodness-content__milk-cont-des {
+			font-size: 0.8em;
+		}
+
+		.goodness-content__hazel-cont-line {
+			margin-left: 100px;
+		}
+
+		.goodness-content__milk-cont-line {
+			margin-left: 100px;
+		}
+
+		.goodness-content-text {
+			font-size: .8em;
+
+		}
+
+		.goodness-content__description {
+			margin: 20px;
+		}
+
+		.goodness-content__imgs2 {
+			width: 240px;
+			height: 200px;
+		}
+
+		.goodness-content__imgs {
+			width: 200px;
+			height: 200px;
+
+		}
+
+}
+

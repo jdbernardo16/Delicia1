@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Delicia treats</title>
 		<link href="https://fonts.googleapis.com/css?family=Abel|Pacifico" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -24,11 +25,13 @@
 	<link rel="stylesheet" type="text/css" href="css/helper.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
   	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/mobile.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/collection/icon/icon.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <!-- Navigation buttons -->
+     <div class="desktop-nav">
       <div class="nav justify-content-end fixed-top navbar-default">
         <div class="nav-holder">
         <div class="logo"><a href="index.html"><img class="logo-img" src="images/Delicia-LOGO.png"></a></div
@@ -38,13 +41,13 @@
         <div class="nav-item"><a class="nav-links active" href="treats.html">Delicia Treats</a></div>
         <div class="nav-item"><a class="nav-links" href="exp.html">Delicia Experience</a></div>
         <div class="nav-item">
-        	<form action="" method="GET">
+	        <form action="" method="GET">
 				<div class="inlineBlock-parent">
 					<div class="header-search__input-type">
 						<button class="btn-search">
 							<i class="fa fa-search" style="font-size: 28px"></i>
 						</button>
-						<input type="text" name="q" placeholder="Search Keyword" style="">	
+						<input class="input" type="text" placeholder="Search Keyword">	
 					</div>
 					<div class="navigation__link icon">
 						<i class="fa fa-search" aria-hidden="true"></i>
@@ -55,6 +58,52 @@
           </div>
           </div>
       </div>
+      </div>
+      <div class="mobile-nav">
+		<div class="mobile-navigation__logo-holder">
+			<a href="">
+				<img class="mobile-navigation__logo" src="images/Delicia-LOGO.png">
+			</a>
+		</div>
+		<form action="" method="GET">
+			<div class="mobile-nav__search-input hide">
+				<div class="inlineBlock-parent">
+				<input class="mobile-input" type="text" name="q" placeholder="Search Keyword"
+				><button class="mobile-btn-search">
+						<i class="fa fa-search"></i>
+					</button>
+				</div>
+			</div>
+		</form>
+		<div class="mobile-nav__search">
+			<i class="fa fa-search"></i>
+		</div>
+		<div class="mobile-nav__search-close hide">
+			<i class="fa fa-times"></i>
+		</div>
+		<div class="mobile-nav__burger">
+			<i class="fa fa-bars"></i>
+		</div>
+		<div class="mobile-nav__close hide">
+			<i class="fa fa-arrow-right"></i>
+		</div>
+		<div class="mobile-nav__link-holder">
+			<div class="l-margin-tb">
+				<div class="mobile-navigation__link">
+					<a href="index.html"><h3 class="mobile-navigation__text">Home</h3></a>
+				</div>
+				<div class="mobile-navigation__link">
+					<a href="goodness.html"><h3 class="mobile-navigation__text">Delicia Goodness</h3></a>
+				</div>
+				<div class="mobile-navigation__link">
+					<a href="treats.html"><h3 class="mobile-navigation__text  current">Delicia Treats</h3></a>
+				</div>
+				<div class="mobile-navigation__link">
+					<a href="exp.html"><h3 class="mobile-navigation__text">Experience Delicia </h3></a>
+				</div>
+			</div>
+		</div>
+	</div>
 <body>
 	<div class="treats__banner"></div
 		><div class="treats1">
@@ -151,20 +200,24 @@
 			</div
 			><div class="treats2__cont">
 				<div class="vertical-parent">
+					<div class="vertical-align">
 					<div class="treats2__cont-line"></div>
 					<div class="treats__cont-head"><h1>Power breakfast</h1></div>
 					<div class="treats__cont-des"><p>Start your day early with<br>delightful and healthy meals.</p></div>
-					<div class="treats__cont-more"><a class="treats2__cont-more-button"href="">VIEW MORE</a></div>
+					<div class="treats__cont-more"><a class="treats1__cont-more-button"href="">VIEW MORE</a></div>
+				</div>
 				</div>
 			</div>
 		</div>
 		<div class="treats3">
 			<div class="treats3__cont">
 				<div class="vertical-parent">
+					<div class="vertical-align">
 					<div class="treats3__cont-line"></div>
 					<div class="treats__cont-head"><h1>Baon Genius</h1></div>
 					<div class="treats__cont-des">Never run out of ideas for crafty<br>daily "baon" items that your<br>children can enjoy!</div>
 					<div class="treats__cont-more"><a class="treats1__cont-more-button"href="">VIEW MORE</a></div>
+					</div>
 				</div>
 			</div
 			><div class="treats3__img">
